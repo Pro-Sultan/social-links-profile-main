@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: hsl(0, 0%, 8%);
+}
+
+div.header {
+  margin-top: 2%;
+  margin-bottom: 3%;
+  border-radius: 10px;
+  width: 30%;
+  text-align: center;
+  padding: 16px;
+  background-color: hsl(0, 0%, 12%);
+}
+
+div.image img {
+  width: 25%;
+  border-radius: 50%;
+}
+
+div.content {
+  margin-top: 20px;
+}
+div.content h1 {
+  margin-top: 10px;
+  letter-spacing: 1px;
+  color: white;
+}
+
+div.content p.state {
+  letter-spacing: 2px;
+  color: hsl(75, 94%, 57%);
+}
+
+div.content p {
+  margin-top: 10px;
+  letter-spacing: 2px;
+  color: white;
+}
+
+div.links {
+  margin-top: 0px;
+  padding: 20px;
+}
+
+div.links div {
+  margin-bottom: 20px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+  background-color: hsl(0, 0%, 20%);
+}
+
+div.links div:hover,
+div.links div.active {
+  background-color: hsl(75, 94%, 57%);
+}
+
+div.links div.active:hover {
+  background-color: hsl(0, 0%, 20%);
+}
+
+div.links a {
+  text-decoration: none;
+  color: white;
+  font-weight: 800;
+}
+
+@media only screen and (max-width: 1240px) {
+  /* CSS rules for screens with a width between 1900px and 1280px */
+  div.header {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  /* CSS rules for screens with a width between 1900px and 1280px */
+  div.header {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  /* CSS rules for screens with a width between 1900px and 1280px */
+  div.header {
+    width: 90%;
+  }
+}
