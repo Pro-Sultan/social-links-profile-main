@@ -22,8 +22,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [https://github.com/Pro-Sultan/recipe-page](https://github.com/Pro-Sultan/recipe-page)
-- Live Site URL: [https://frontendmentor-recipepage2.netlify.app/](https://frontendmentor-recipepage2.netlify.app/)
+- Solution URL: [https://github.com/Pro-Sultan/social-links-profile-main](https://github.com/Pro-Sultan/social-links-profile-main)
+- Live Site URL: [https://pro-sultan.github.io/social-links-profile-main/](https://pro-sultan.github.io/social-links-profile-main/)
 
 ## My process
 
